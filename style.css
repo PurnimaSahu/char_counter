@@ -1,0 +1,64 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    
+}
+
+#container
+{
+border :2px solid red;
+height:100vh;
+display: flex;
+align-items: center;
+justify-content: center;
+background-color: rgb(181, 8, 31);
+
+}
+.box
+{
+    /* border:2px solid black; */
+    width:40%;
+    height:40vh;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color: aqua;
+    opacity: .8;
+}
+.span{
+    /* border:2px solid rgb(41, 41, 4); */
+    margin-top: 30px;
+    /* width: 20%;
+    display: inline; */
+
+}
+#header
+{
+    /* border:2px solid pink; */
+    margin:  0px auto;
+    width: 100%;
+    margin-top: 5px;
+
+}
+.textarea
+{
+    margin-top: 20px;
+    outline: none;
+    /* border: none; */
+    resize: none;
+    cursor: pointer;
+    border-color: rgb(10, 80, 80);
+    padding: 5px;
+
+
+
+}
+#span1
+{
+    float: left;
+}
+#span2
+{
+    float:right
+}
